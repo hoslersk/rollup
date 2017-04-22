@@ -1,8 +1,10 @@
 {
   "author": "Schyler Hosler",
-  "name": "Rollup Test",
+  "name": "rollup-test",
+  "description": "rollup test",
   "version": "0.0.0",
   "devDependencies": {
+    "react-scripts": "0.9.0",
     "babel-cli": "^6.18.0",
     "babel-plugin-external-helpers": "^6.18.0",
     "babel-plugin-syntax-decorators": "^6.13.0",
@@ -12,11 +14,19 @@
     "babel-preset-stage-0": "^6.16.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^5.0.5",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
